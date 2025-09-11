@@ -6,7 +6,7 @@ config.initial_cols = 120
 config.initial_rows = 28
 
 config.font_size = 18
-config.color_scheme = 'AdventureTime'
+config.color_scheme = 'tokyonight'
 
 config.background = {
 	{
@@ -19,7 +19,7 @@ config.background = {
 		height = 'Cover',
 		horizontal_align = 'Center',
 		hsb = {
-			brightness = 0.3,
+			brightness = 0.2,
 			hue = 1.0,
 			saturation = 0.9,
 		},
