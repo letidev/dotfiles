@@ -5,7 +5,7 @@ local config = wezterm.config_builder()
 config.initial_cols = 120
 config.initial_rows = 28
 
-config.font_size = 18
+config.font_size = 16
 config.color_scheme = "tokyonight"
 
 config.background = {
@@ -19,9 +19,9 @@ config.background = {
 		height = "Cover",
 		horizontal_align = "Center",
 		hsb = {
-			brightness = 0.05,
+			brightness = 0.02,
 			hue = 1.0,
-			saturation = 0.9,
+			saturation = 0.8,
 		},
 	},
 }
