@@ -4,3 +4,4 @@ wezterm/wezbg.png
 !.gitignore
 !wezterm/
 !nvim/
+!karabiner/
