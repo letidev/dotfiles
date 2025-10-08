@@ -28,7 +28,7 @@ return {
       require("snacks").setup(opts)
 
       local function set_snacks_dir_color()
-        -- Make directories look like files
+        -- I want directories to have the same color as files
         vim.api.nvim_set_hl(0, "SnacksPickerDirectory", { link = "SnacksPickerFile", nocombine = true })
       end
 
