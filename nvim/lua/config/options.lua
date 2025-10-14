@@ -1,1 +1,1 @@
-vim.opt.scrolloff = 15
+vim.opt.scrolloff = 10
