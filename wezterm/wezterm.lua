@@ -12,7 +12,7 @@ config.color_scheme = "tokyonight"
 config.background = {
 	{
 		source = {
-			File = wezterm.config_dir .. "/wezbg.png",
+			File = wezterm.config_dir .. "/wezbg.jpg",
 		},
 		repeat_x = "NoRepeat",
 		repeat_y = "NoRepeat",
@@ -20,9 +20,9 @@ config.background = {
 		height = "Cover",
 		horizontal_align = "Center",
 		hsb = {
-			brightness = 0.01,
+			brightness = 0.03,
 			hue = 1.0,
-			saturation = 0.9,
+			saturation = 1.0,
 		},
 	},
 }
