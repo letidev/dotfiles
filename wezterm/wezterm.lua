@@ -7,7 +7,7 @@ config.initial_rows = 28
 
 config.font = wezterm.font("CaskaydiaCove Nerd Font")
 config.font_size = 16.0
-config.color_scheme = "tokyonight"
+config.color_scheme = "Gruvbox dark, hard (base16)"
 
 config.background = {
 	{
