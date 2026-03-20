@@ -20,12 +20,14 @@ config.background = {
 		height = "Cover",
 		horizontal_align = "Center",
 		hsb = {
-			brightness = 0.03,
+			brightness = 0.01,
 			hue = 1.0,
 			saturation = 1.0,
 		},
 	},
 }
+
+config.harfbuzz_features = { "calt=0" }
 
 config.keys = {
 	{
