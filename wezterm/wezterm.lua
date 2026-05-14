@@ -36,6 +36,11 @@ config.keys = {
 		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
 	},
 	{
+		key = "h",
+		mods = "CMD|SHIFT",
+		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
+	},
+	{
 		key = "w",
 		mods = "CMD",
 		action = wezterm.action.CloseCurrentPane({ confirm = true }),
