@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.opt.scrolloff = 15
+vim.opt.foldmethod = "indent"
+vim.opt.foldlevel = 99 -- start with all folds open
