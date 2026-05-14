@@ -20,7 +20,7 @@ config.background = {
 		height = "Cover",
 		horizontal_align = "Center",
 		hsb = {
-			brightness = 0.01,
+			brightness = 0.04,
 			hue = 1.0,
 			saturation = 1.0,
 		},
