@@ -7,3 +7,4 @@ wezterm/*.jpg
 !nvim/
 !karabiner/
 !hammerspoon/
+!lazygit/
