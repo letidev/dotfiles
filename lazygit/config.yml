@@ -1,5 +1,5 @@
 git:
-  diffContextSize: 20
+  diffContextSize: 10
   pagers:
     - colorArg: always
       pager: delta --paging=never --line-numbers --side-by-side --syntax-theme="gruvbox-dark"
