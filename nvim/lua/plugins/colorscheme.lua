@@ -5,6 +5,10 @@ return {
     opts = {
       -- transparent_mode = true,
       contrast = "hard",
+      overrides = {
+        Normal = { bg = "#1E2021" },
+        NormalFloat = { bg = "#1E2021" },
+      },
     },
   },
 
