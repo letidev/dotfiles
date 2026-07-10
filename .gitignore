@@ -8,3 +8,4 @@ wezterm/*.jpg
 !karabiner/
 !hammerspoon/
 !lazygit/
+!tmux/
