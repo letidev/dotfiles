@@ -30,11 +30,11 @@ hs.hotkey.bind({ "ctrl" }, "b", function()
 end)
 
 hs.hotkey.bind({ "ctrl" }, "i", function()
-	local cursor = hs.application.find("cursor")
+	local cursor = hs.application.find("code")
 	if cursor and cursor:isFrontmost() then
 		cursor:hide()
 	else
-		hs.application.launchOrFocus("/Applications/Cursor.app")
+		hs.application.launchOrFocus("/Applications/Visual Studio Code.app")
 	end
 end)
 
