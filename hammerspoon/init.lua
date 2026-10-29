@@ -21,11 +21,11 @@ hs.hotkey.bind({ "ctrl" }, "[", function()
 end)
 
 hs.hotkey.bind({ "ctrl" }, "b", function()
-	local arc = hs.application.find("arc")
-	if arc and arc:isFrontmost() then
-		arc:selectMenuItem("Hide Arc")
+	local zen = hs.application.find("zen")
+	if zen and zen:isFrontmost() then
+		zen:hide()
 	else
-		hs.application.launchOrFocus("/Applications/Arc.app")
+		hs.application.launchOrFocus("/Applications/Zen.app")
 	end
 end)
 
